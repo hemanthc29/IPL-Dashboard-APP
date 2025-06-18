@@ -1,0 +1,57 @@
+.latest-match-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.match-details {
+  flex: 1;
+  min-width: 200px;
+}
+
+.match-title {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.match-date,
+.match-venue,
+.match-result {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.team-logo {
+  width: 150px;
+  height: 150px;
+}
+
+.innings-details {
+  flex: 1;
+  min-width: 200px;
+}
+
+.innings-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.innings-team {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  margin-bottom: 8px;
+}

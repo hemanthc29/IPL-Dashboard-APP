@@ -1,0 +1,63 @@
+.team-matches-container {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.team-banner {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.recent-matches-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Team specific background colors */
+.rcb {
+  background: linear-gradient(to bottom, #a4261d, #1e293b);
+}
+
+.kkr {
+  background: linear-gradient(to bottom, #5755a7, #1e293b);
+}
+
+.kxp {
+  background: linear-gradient(to bottom, #d91c1f, #1e293b);
+}
+
+.csk {
+  background: linear-gradient(to bottom, #f7db00, #1e293b);
+}
+
+.rr {
+  background: linear-gradient(to bottom, #da237b, #1e293b);
+}
+
+.mi {
+  background: linear-gradient(to bottom, #13418b, #1e293b);
+}
+
+.srh {
+  background: linear-gradient(to bottom, #f26d22, #1e293b);
+}
+
+.dc {
+  background: linear-gradient(to bottom, #4f5db0, #1e293b);
+}
